@@ -1,0 +1,35 @@
+.profile {
+    margin: 100px auto;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(100, 100, 100);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar {
+    padding-top: 50px;
+    width: 150px;
+    border-radius: 50%;
+}
+.stats {
+    gap: 40px;
+    padding-left: 0px;
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+.stats_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
