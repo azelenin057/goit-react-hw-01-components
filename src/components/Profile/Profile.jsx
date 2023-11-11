@@ -1,6 +1,7 @@
+import React from 'react';
 import css from "./Profile.module.css";
 
-export const Profile = props => {
+const Profile = props => {
     return (
     <div class={css.profile}>
         <div class={css.description}>
@@ -30,4 +31,5 @@ export const Profile = props => {
         </ul>
     </div>)
   };
-  
+
+export default Profile;
